@@ -9,3 +9,5 @@ resource "aws_s3_bucket" "terraform_bucket" {
 output "bucket_name" {
   value = aws_s3_bucket.terraform_bucket.bucket
 }
+
+# bucket_name = "terraform-bucket-c6b2e88e4e95"
